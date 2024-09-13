@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /VJ-File-Store
-WORKDIR /VJ-File-Store
-COPY . /VJ-File-Store
+RUN mkdir /File_StoreBot
+WORKDIR /File_StoreBot
+COPY . /File_StoreBot
 CMD ["python", "bot.py"]
