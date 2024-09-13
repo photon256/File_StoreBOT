@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "29570994"))
-API_HASH = environ.get("API_HASH", "0480448e375c4d248fb32535e01f3438")
+API_ID = int(environ.get("API_ID", "16253557"))
+API_HASH = environ.get("API_HASH", "81171c25e4cb9062cb10da8b7730432a")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/db8b040dc2124931bc929.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6851245012').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "justusemebot") # without @
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/339e79a4e1d77cf1f97f5.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '16253557').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "TERABOXASANHAIBOT") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002219443033"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002360554107"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
